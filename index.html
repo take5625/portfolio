@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <title>ポートフォリオ</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="css/hamburgers.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&family=Zen+Maru+Gothic&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cab4448e3a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick-custom.css">
+    <link rel="stylesheet" href="css/btt.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- <div class="common-container header-container"> -->
+        <div class="header_bg">
+            <div class="site" width="100" height="100">
+                <a href="index.html">
+                    <img src="images/logo_outline.svg" alt="" width="100" height="100">
+                </a>
+            </div>
+            <h1>Ｐｏｒｔｆｏｌｉｏ</h1>
+
+            <button class="nav-btn hamburger hamburger--spin" onclick="document.querySelector('html').classList.toggle('open');
+                document.querySelector('.nav-btn').classList.toggle('is-active')">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                </span>
+                <!--<span class="fa-sr-only">Menu</span>-->
+            </button>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html" class="cat-btn">ＴＯＰ
+                        <span class="cat-hand"></span></a></li>
+                <li><a href="#aboutMe" class="cat-btn">ＡＢＯＵＴ　ＭＥ
+                        <span class="cat-hand"></span></a></li>
+                <li><a href="#skill" class="cat-btn">ＳＫＩＬＬ
+                        <span class="cat-hand"></span></a></li>
+                <li><a href="works.html" class="cat-btn">ＷＯＲＫＳ
+                        <span class="cat-hand"></span>
+                    </a></li>
+                <li><a href="#contact" class="cat-btn">ＣＯＮＴＡＣＴ
+                        <span class="cat-hand"></span>
+                    </a></li>
+            </ul>
+        </nav>
+
+        <!-- </div> -->
+    </header>
+    <section class="hero">
+        <img src="images/hero.jpg" alt="ヒーローイメージ" width="1150" height="650">
+        <div class="hero-container">
+            <h2 class="catchcopy">アソビゴコロ、ネコゴコロ。</h2>
+            <p>猫のような自由さをデザインに。</p>
+        </div>
+        <!-- 走る猫 -->
+        <div class="scroll-infinity">
+            <div class="scroll-infinity__wrap">
+                <ul class="scroll-infinity__list scroll-infinity__list--left">
+                    <li class="scroll-infinity__item is-secret">
+                        <a href="thanks.html"><img src="images/rancat.png" width="100" height="80"></a>
+                    </li>
+                    <li class="scroll-infinity__item">
+                        <img src="images/rancat.png" width="100" height="80">
+                    </li>
+                    <li class="scroll-infinity__item spacer"></li>
+                    <li class="scroll-infinity__item spacer"></li>
+                </ul>
+                <ul class="scroll-infinity__list scroll-infinity__list--left">
+                    <li class="scroll-infinity__item is-secret">
+                        <a href="thanks.html"><img src="images/rancat.png" width="100" height="80"></a>
+                    </li>
+                    <li class="scroll-infinity__item">
+                        <img src="images/rancat.png" width="100" height="80">
+                    </li>
+                    <li class="scroll-infinity__item spacer"></li>
+                    <li class="scroll-infinity__item spacer"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="aboutMe common-container" id="aboutMe">
+        <div class="sectionTitle">
+            <img src="images/icon-cat.png" alt="黒猫" width="80" height="50">
+            <h2>ＡＢＯＵＴ　ＭＥ</h2>
+        </div>
+        <div class="aboutMe-container">
+            <div class="aboutMe-contents">
+                <figure>
+                    <img src="images/selfportrait.jpg" alt="自画像" width="300" height="300">
+                </figure>
+                <div class="aboutMe-text">
+                    <h3>武田&nbsp;真美&nbsp;Takeda&nbsp;Masami</h3>
+                    <p>
+                        生粋の静岡県東部民。<br>
+                        富士山の見えないところで暮らしたことがありません。富士山は見るもの。<br>
+                        アニメショップ勤務、ドラッグストア勤務、事務職を経て<br>
+                        「何かを生み出す仕事がしてみたい！」と職業訓練学校に入校し<br>
+                        WEBデザインを学びました。<br>
+                        猫好きが高じて保護猫活動をし、現在は５匹の猫と暮らしています。<br>
+                        趣味：猫を吸うこと。漫画を読むこと。<br>
+                        好きなアーティスト：サカナクション&nbsp;星野源&nbsp;日食なつこ<br>
+                        今楽しみなこと：プロジェクトへイルメアリーの映画
+                    </p>
+                </div>
+            </div>
+            <!-- /.aboutMe-contents -->
+        </div>
+        <!-- /.aboutMe-container -->
+    </section>
+    <!-- /.aboutMe -->
+    <section class="skill common-container" id="skill">
+        <div class="sectionTitle">
+            <img src="images/icon-cat.png" alt="黒猫" width="80" height="50">
+            <h2>ＳＫＩＬＬ</h2>
+        </div>
+        <div class="skill-container">
+            <div class="skill-list">
+                <ul class="skill-list01">
+                    <li>
+                        <i class="fa-brands fa-html5"></i><br>
+                        <span class="fa-sr-only skillIcon">HTML5</span>
+                        <br>
+                        <p>★★★☆☆</p>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-css3-alt"></i><br>
+                        <span class="fa-sr-only skillIcon">CSS3</span>
+                        <p class="level">★★★☆☆</p>
+                    </li>
+                </ul>
+                <ul class="skill-list02">
+                    <li><img src="images/ps_icon.png" alt="Photoshop" width="100" height="100"><br>
+                        <p>Photoshop</p>
+                        <p class="level">★★☆☆☆</p>
+                    </li>
+                    <li><img src="images/ai_icon.png" alt="Illustrator" width="100" height="100"><br>
+                        <p>Illustrator</p>
+                        <p class="level">★★☆☆☆</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p>その他：日商簿記３級、登録販売者、FP３級、愛玩動物飼養管理士２級</p>
+    </section>
+    <!-- /.skill -->
+    <section class="works common-container">
+        <div class="sectionTitle">
+            <img src="images/icon-cat.png" alt="黒猫" width="80" height="50">
+            <h2>ＷＯＲＫＳ</h2>
+        </div>
+        <div class="works-container">
+            <div class="works-list">
+                <div>
+                    <img src="images/slideimage/works_banner.png" alt="個人制作バナー" width="250" height="250">
+                </div>
+                <div>
+                    <img src="images/slideimage/works_catchcopy01.png" alt="個人制作バナー" width="250" height="250">
+                </div>
+                <div>
+                    <img src="images/slideimage/works_catchcopy02.png" alt="個人制作バナー" width="250" height="250">
+                </div>
+                <div>
+                    <img src="images/slideimage/works_logo.png" alt="個人制作ロゴ" width="250" height="250">
+                </div>
+                <div>
+                    <img src="images/slideimage/works_site01.png" alt="個人制作Ｗｅｂサイト" width="250" height="250">
+                </div>
+                <div>
+                    <img src="images/slideimage/works_site02.png" alt="グループ制作Ｗｅｂサイト" width="250" height="250">
+                </div>
+            </div>
+        </div>
+        <div class="works-btn-container">
+            <button class="works-btn">
+                <a href="works.html">詳しく見る</a>
+            </button>
+        </div>
+    </section>
+    <!-- /.works -->
+    <section class="contact common-container" id="contact">
+        <div class="sectionTitle">
+            <img src="images/icon-cat.png" alt="黒猫" width="80" height="50">
+            <h2>ＣＯＮＴＡＣＴ</h2>
+        </div>
+        <p>お仕事のご依頼、ご相談はこちらの問い合わせフォームまたはSNSのDMよりお願いいたします。</p>
+        <div class="contact-container">
+            <form action="#">
+                <p>お名前</p>
+                <input type="text" name="お名前" size="30" required>
+                <p>メールアドレス</p>
+                <input type="email" name="mail" size="40" required>
+                <p>お問い合わせ内容</p>
+                <textarea name="contact" cols="45" rows="10" placeholder="このフォームはダミーです"></textarea>
+                <p>
+                    <input type="submit" name="送信ボタン" value="送信" class="submit-btn">
+                </p>
+            </form>
+
+        </div>
+    </section>
+    <!-- /.contact -->
+
+    <footer class="footer">
+        <div class="footer-containaer common-container">
+
+            <div class="footer-site" width="80" height="80">
+                <a href="index.html">
+                    <img src="images/logo_outline.svg" alt="" width="80" height="80">
+                </a>
+            </div>
+            <div class="snsIcon">
+                <a href="#">
+                    <i class="fa-brands fa-square-instagram"></i>
+                    <!--<span class="fa-sr-only">instagram</span>-->
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-square-x-twitter"></i>
+                    <!--<span class="fa-sr-only">x-twitter</span>-->
+                </a>
+            </div>
+            <ul class="footer-menu">
+                <li><a href="index.html">ＴＯＰ</a></li>
+                <li><a href="#aboutMe">ＡＢＯＵＴ　ＭＥ</a></li>
+                <li><a href="#skill">ＳＫＩＬＬ</a></li>
+                <li><a href="works.html">ＷＯＲＫＳ</a></li>
+                <li><a href="#contact">ＣＯＮＴＡＣＴ</a></li>
+                <li><a href="privacy.html">個人情報の取り扱い</a></li>
+            </ul>
+
+            <div class="footer-copy">
+                &copy;2026&nbsp;Masami&nbspTakeda&nbsp;
+            </div>
+        </div>
+    </footer>
+    <div id="btt">
+        <a href="#">
+            <img src="images/backtotop.png" alt="上にもどるボタン">
+        </a>
+    </div>
+    <!--<div id="pos"></div>-->
+    <!-- ＊＊＊＊＊＊JavaScript＊＊＊＊＊＊ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- 上へ戻るボタン -->
+    <script src="js/btt.js"></script>
+
+    <!-- スライダー -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/slick-custom.js"></script>
+
+</body>
+
+</html>
