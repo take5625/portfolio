@@ -511,7 +511,7 @@ section {
 }
 
 .works-btn {
-    margin-top: 4rem;
+    margin: 2rem 0;
     display: block;
     width: 200px;
     padding: 10px;
@@ -686,6 +686,8 @@ td {
     background-color: #fff;
 }
 
+
+
 /* personal_p-contents */
 .personal_p-container figure {
     text-align: center;
@@ -713,6 +715,8 @@ td {
 .personal_p-contents {
     margin: 5rem 0;
 }
+
+
 
 @media(min-width:768px) {
     .personal_p-contents {
