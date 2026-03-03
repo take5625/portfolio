@@ -1,5 +1,6 @@
 $(function () {
 	$('.works-list').slick({
+		autoplay: true,
 		dots: true,
 		infinite: true,
 		slidesToShow: 3,
